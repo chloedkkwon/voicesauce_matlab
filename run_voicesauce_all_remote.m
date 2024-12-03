@@ -5,14 +5,14 @@ dbstop if error
 % December 3, 2024
 % Runs VoiceSauce by looping over audio files in fd_audio.
 % 1. Change your path variables below based on your folder structure
-% 2. If you don't want to specify the grid/output folder, comment out fd_grid & fd_out
+% 2. If everything is inside the audio folder, comment out fd_grid & fd_out
 % Then change the last function to run_voicesauce_remote(fd_audio);
 % You'll have to modify run_voicesauce_remote.m to run files without
 % textgrids
 
 %Change this part based on your folder structure
-path_expf = '/home/dk837/dissertation/experiment_files'; % this is the folder with all my data files 
-path_procf = '/home/dk837/dissertation/processing_files'; % this is the folder with subject IDs
+path_expf = '/home/experiment_files'; % this is the folder with all my data files 
+path_procf = '/home/processing_files'; % this is the folder with subject IDs
 
 expIDs = cellstr(readlines(fullfile(path_procf, 'corrected.txt'))); % list of subject IDs to loop over
 
