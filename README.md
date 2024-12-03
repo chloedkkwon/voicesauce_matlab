@@ -1,4 +1,4 @@
-This code is shared as a reference rather than a finished product for running your files automatically. You can follow the instructions below to tweak it to fit your data.
+This code is shared as a reference rather than a finished product for running your files automatically. You can follow the instructions below to tweak my scripts for your use.
 
 Directions:
 1. Download my codes for running VoiceSauce and put it in your VoiceSauce folder
