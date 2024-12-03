@@ -21,7 +21,7 @@ addParameter(p, 'params', {'F0', 'Formants', 'Harmonics', ...
 % Use 'params' option to include a cell array of parameters to estimate
 % e.g., run_voicesauce(fd_audio, fd_output, 'params', {'F0', '2K'})
 % Make sure praat is in the working directory
-% Choose parameter names from below list (if not, all parameters will be estimated)
+% Choose parameter names from below list (if none is specified, all parameters will be estimated)
  % {'F0', 'Formants', 'Harmonics', ...
  %    'Combinations', 'Energy', 'CPP', ...
  %    'HNR', 'SHR', 'SoE)'}
@@ -83,7 +83,7 @@ if V.fd_output == 0, V.fd_output = V.fd_audio; end %save outcome in the audio fo
 if ~exist(V.fd_output, 'dir'), mkdir(V.fd_output); end
 
 %cd ~/Desktop/matlab_toolkit/VoiceSauce/
-cd /home/dk837/matlab_utils/VoiceSauce % change this to your path to VoiceSauce
+cd /home/matlab_utils/VoiceSauce % change this to your path to VoiceSauce
 
 % Get list of audio files in the directory
 audios = struct2table(dir(fullfile(fd_audio, '*.wav'))); 
