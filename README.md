@@ -19,4 +19,4 @@ These files are shared as a reference rather than a finished product to run your
 Adopted and modified codes originally from:  
 [VoiceSauce](https://www.phonetics.ucla.edu/voicesauce/)  
 
-Shue, Y.-L., Keating, P., Vicenik, C., & Yu, K. (2011). *VoiceSauce: A program for voice analysis*. Proceedings of the International Congress of Phonetic Sciences (ICPhS), 1846–1849.
+   Shue, Y.-L., Keating, P., Vicenik, C., & Yu, K. (2011). *VoiceSauce: A program for voice analysis*. Proceedings of the International Congress of Phonetic Sciences (ICPhS), 1846–1849.
